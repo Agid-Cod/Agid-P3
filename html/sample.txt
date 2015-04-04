@@ -1,0 +1,2 @@
+<pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'C:/pleiades/xampp/htdocs/eccube2/html/../data/Smarty/templates/default/frontparts/bloc/calendar.tpl'</font> <i>(length=99)</i>
+</pre>

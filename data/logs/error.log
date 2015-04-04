@@ -1,0 +1,57 @@
+2015/03/29 20:36:16 [/eccube/html/products/list.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SELECT sess_data FROM dtb_session WHERE sess_id = ?   ]
+MDB2 Error: no such table
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysql_317f2fb1e8eec47a72e85002921d734bafb914fd7 FROM 'SELECT sess_data FROM dtb_session WHERE sess_id = ?   ']
+[Native code: 1146]
+[Native message: Table 'eccube_db.dtb_session' doesn't exist]
+ on [C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(1095)] from ::1
+customer_id = 
+C:\pleiades\xampp\htdocs\eccube\html\products\list.php(24): require_once
+C:\pleiades\xampp\htdocs\eccube\html\require.php(35): require_once
+C:\pleiades\xampp\htdocs\eccube\data\require_base.php(45): SC_SessionFactory_UseCookie->initSession
+C:\pleiades\xampp\htdocs\eccube\data\class\sessionfactory\SC_SessionFactory_UseCookie.php(53): session_start
+(): SC_Helper_Session->sfSessRead
+C:\pleiades\xampp\htdocs\eccube\data\class\helper\SC_Helper_Session.php(70): SC_Query->select
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(176): SC_Query->getAll
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(304): SC_Query->prepare
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(1024): SC_Query->error
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(1095): trigger_error
+2015/03/29 20:36:20 [/eccube/html/products/list.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SELECT sess_data FROM dtb_session WHERE sess_id = ?   ]
+MDB2 Error: no such table
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysql_34af9aaa0ab70020c863a326d6a1d96a53523b7b0 FROM 'SELECT sess_data FROM dtb_session WHERE sess_id = ?   ']
+[Native code: 1146]
+[Native message: Table 'eccube_db.dtb_session' doesn't exist]
+ on [C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(1095)] from ::1
+customer_id = 
+C:\pleiades\xampp\htdocs\eccube\html\products\list.php(24): require_once
+C:\pleiades\xampp\htdocs\eccube\html\require.php(35): require_once
+C:\pleiades\xampp\htdocs\eccube\data\require_base.php(45): SC_SessionFactory_UseCookie->initSession
+C:\pleiades\xampp\htdocs\eccube\data\class\sessionfactory\SC_SessionFactory_UseCookie.php(53): session_start
+(): SC_Helper_Session->sfSessRead
+C:\pleiades\xampp\htdocs\eccube\data\class\helper\SC_Helper_Session.php(70): SC_Query->select
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(176): SC_Query->getAll
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(304): SC_Query->prepare
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(1024): SC_Query->error
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(1095): trigger_error
+2015/03/29 20:38:01 [/eccube/html/index.php] Fatal error(E_USER_ERROR): DB処理でエラーが発生しました。
+SQL: [SELECT sess_data FROM dtb_session WHERE sess_id = ?   ]
+MDB2 Error: no such table
+_doQuery: [Error message: Could not execute statement]
+[Last executed query: PREPARE mdb2_statement_mysql_362979d25e8a306f3efab018cff01343da0c84deb FROM 'SELECT sess_data FROM dtb_session WHERE sess_id = ?   ']
+[Native code: 1146]
+[Native message: Table 'eccube_db.dtb_session' doesn't exist]
+ on [C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(1095)] from ::1
+customer_id = 
+C:\pleiades\xampp\htdocs\eccube\html\index.php(23): require_once
+C:\pleiades\xampp\htdocs\eccube\html\require.php(35): require_once
+C:\pleiades\xampp\htdocs\eccube\data\require_base.php(45): SC_SessionFactory_UseCookie->initSession
+C:\pleiades\xampp\htdocs\eccube\data\class\sessionfactory\SC_SessionFactory_UseCookie.php(53): session_start
+(): SC_Helper_Session->sfSessRead
+C:\pleiades\xampp\htdocs\eccube\data\class\helper\SC_Helper_Session.php(70): SC_Query->select
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(176): SC_Query->getAll
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(304): SC_Query->prepare
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(1024): SC_Query->error
+C:\pleiades\xampp\htdocs\eccube\data\class\SC_Query.php(1095): trigger_error
